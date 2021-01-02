@@ -1,7 +1,7 @@
 @regression
 Feature: US1008 Ck Hotels Login
 
-  @smoke
+ @smoke
   Scenario: TC10 kullanici gecerli bilgilerle giris yapar
 
     Given kullanici "Ck_Hotels" ana sayfasina gider

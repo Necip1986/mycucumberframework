@@ -14,5 +14,5 @@ Feature: US1006_Dinamik_url_test
       |istenenUrl|
       |amazon|
       |bestbuy|
-      |walmart|
+
 

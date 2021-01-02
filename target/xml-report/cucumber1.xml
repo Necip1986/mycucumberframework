@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="221.491">
-    <testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli" time="22.867">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="212.977">
+    <testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli" time="23.61">
         <system-out>
             <![CDATA[When kullanici "amazon" ana sayfasina gider.................................passed
 Then "amazon" de oldugunu test eder.........................................passed
@@ -8,7 +8,7 @@ And kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli_2" time="16.562">
+    <testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli_2" time="15.173">
         <system-out>
             <![CDATA[When kullanici "bestbuy" ana sayfasina gider................................passed
 Then "bestbuy" de oldugunu test eder........................................passed
@@ -16,22 +16,7 @@ And kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli_3" time="10.901">
-        <failure message="expected:&lt;...s://www.walmart.com/[]&gt; but was:&lt;...s://www.walmart.com/[blocked?url=Lw==&amp;uuid=29644c30-4c6c-11eb-8b6e-d3069114bcc6&amp;vid=&amp;g=a]&gt;" type="org.junit.ComparisonFailure">
-            <![CDATA[When kullanici "walmart" ana sayfasina gider................................passed
-Then "walmart" de oldugunu test eder........................................failed
-And kullanici sayfayi kapatir...............................................skipped
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<...s://www.walmart.com/[]> but was:<...s://www.walmart.com/[blocked?url=Lw==&uuid=29644c30-4c6c-11eb-8b6e-d3069114bcc6&vid=&g=a]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepdefinitions.BestbuyStepDefinitions.de_oldugunu_test_eder(BestbuyStepDefinitions.java:21)
-	at ✽."walmart" de oldugunu test eder(file:///C:/Users/admin/IdeaProjects/mycucumberframework/src/test/resources/features/US1006_Dinamik_url_test.feature:9)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali" time="20.431">
+    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali" time="19.948">
         <system-out>
             <![CDATA[When kullanici "datatable_url" ana sayfasina gider..........................passed
 Then new butonuna basar.....................................................passed
@@ -50,7 +35,7 @@ And kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 2" time="19.771">
+    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 2" time="19.229">
         <system-out>
             <![CDATA[When kullanici "datatable_url" ana sayfasina gider..........................passed
 Then new butonuna basar.....................................................passed
@@ -69,7 +54,7 @@ And kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 3" time="21.144">
+    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 3" time="19.562">
         <system-out>
             <![CDATA[When kullanici "datatable_url" ana sayfasina gider..........................passed
 Then new butonuna basar.....................................................passed
@@ -88,7 +73,7 @@ And kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 4" time="19.817">
+    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 4" time="19.564">
         <system-out>
             <![CDATA[When kullanici "datatable_url" ana sayfasina gider..........................passed
 Then new butonuna basar.....................................................passed
@@ -107,7 +92,7 @@ And kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 5" time="20.748">
+    <testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 5" time="20.307">
         <system-out>
             <![CDATA[When kullanici "datatable_url" ana sayfasina gider..........................passed
 Then new butonuna basar.....................................................passed
@@ -126,7 +111,7 @@ And kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1008 Ck Hotels Login" name="TC10 kullanici gecerli bilgilerle giris yapar" time="41.775">
+    <testcase classname="US1008 Ck Hotels Login" name="TC10 kullanici gecerli bilgilerle giris yapar" time="46.616">
         <system-out>
             <![CDATA[Given kullanici "Ck_Hotels" ana sayfasina gider.............................passed
 Then Log in yazisina tiklar.................................................passed
@@ -138,7 +123,7 @@ And kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1009 Ck Hotels Login" name="TC11 kullanici gecersiz bilgilerle giris yapar" time="26.534">
+    <testcase classname="US1009 Ck Hotels Login" name="TC11 kullanici gecersiz bilgilerle giris yapar" time="28.012">
         <system-out>
             <![CDATA[Given kullanici "Ck_Hotels" ana sayfasina gider.............................passed
 Then Log in yazisina tiklar.................................................passed
