@@ -54,4 +54,20 @@ public class CKHotelStepDefinitions {
         int sn=Integer.parseInt(arg0);
         Thread.sleep(sn*1000);
     }
+
+    @And("Username text Box'ina {string} girer")
+    public void usernameTextBoxInaGirer(String arg0) {
+        ckHotelPage.usernameTextBox.sendKeys(arg0);
+    }
+
+    @And("Password textBox'ina {string} girer")
+    public void passwordTextBoxInaGirer(String arg0) {
+        ckHotelPage.passwordTextBox.sendKeys(arg0);
+    }
+
+    @Then("kullanici login olmadigini dogrular")
+    public void kullaniciLoginOlmadiginiDogrular() {
+        Assert.assertTrue(ckHotelPage.tryAgainText.isDisplayed());
+
+    }
 }
