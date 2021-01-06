@@ -7,9 +7,11 @@ C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\utilities\Driver.j
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\pages\CKHotelPage.java
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\pages\AmazonPage.java
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\utilities\ConfigReader.java
+C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\pages\AutomatinPracticePage.java
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\pages\WalmartPage.java
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\stepdefinitions\WalmartStepDefinitions.java
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\runners\SmokeTestRunner.java
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\stepdefinitions\CKHotelStepDefinitions.java
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\stepdefinitions\Hooks.java
 C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\runners\Sorular.java
+C:\Users\admin\IdeaProjects\mycucumberframework\src\test\java\stepdefinitions\AutomationPracticeStepDefinitions.java

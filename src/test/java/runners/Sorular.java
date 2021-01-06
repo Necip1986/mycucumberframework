@@ -39,4 +39,25 @@ public class Sorular {
 
 
 
+    //http://automationpractice.com/index.php sayfasina gidelim
+    //Cucumber ile asagidaki testi yapalim
+    //        Given user web sayfasinda
+    //        And user sign in linkine tiklar
+    //        And user Create and account bölümüne email adresi girer
+    //        And Create an Account butonuna basar
+    //        And user kisisel bilgilerini ve iletisim bilgilerini girer
+    //        And user Register butonuna basar
+    //        Then hesap olustugunu dogrulayin
+
+
+
+    //http://demo.guru99.com/test/web-table-element.php sayfasina gidelim
+    //Cucumber framework’de US1012_Guru_Web_Tables olusturun
+    //Scenario : TC_16_kullanici_liste_alabilmeli         asagidaki testi yapin
+    //                Given user web sayfasinda
+    //                Then Company listesini consola yazdirir
+    //    And DCB Bank'in listede oldugunu test eder
+
+
+
 }

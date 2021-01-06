@@ -12,7 +12,7 @@ public class BestbuyStepDefinitions {
     @When("kullanici {string} ana sayfasina gider")
     public void kullanici_ana_sayfasina_gider(String string) {
 
-       Driver.getDriver().get(ConfigReader.getProperty(string));
+        Driver.getDriver().get(ConfigReader.getProperty(string));
     }
 
 

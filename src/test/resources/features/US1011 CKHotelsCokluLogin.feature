@@ -1,4 +1,4 @@
-@wip
+
 Feature: US1011_CKHotel Coklu Login Deneme
   Scenario Outline: TC12_CKHotel Coklu Login 1
     When kullanici "Ck_Hotels" ana sayfasina gider

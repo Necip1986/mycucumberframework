@@ -1,48 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="86.228">
-<testcase classname="US1011_CKHotel Coklu Login Deneme" name="TC12_CKHotel Coklu Login 1" time="16.143">
-<system-out><![CDATA[When kullanici "Ck_Hotels" ana sayfasina gider..............................passed
-Then Log in yazisina tiklar.................................................passed
-And Username text Box'ina "Manager" girer...................................passed
-And Password textBox'ina "Manager" girer....................................passed
-Then Login butonuna basar...................................................passed
-Then kullanici login olmadigini dogrular....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1011_CKHotel Coklu Login Deneme" name="TC12_CKHotel Coklu Login 1 2" time="18.544">
-<system-out><![CDATA[When kullanici "Ck_Hotels" ana sayfasina gider..............................passed
-Then Log in yazisina tiklar.................................................passed
-And Username text Box'ina "Manager1" girer..................................passed
-And Password textBox'ina "Manager1" girer...................................passed
-Then Login butonuna basar...................................................passed
-Then kullanici login olmadigini dogrular....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1011_CKHotel Coklu Login Deneme" name="TC12_CKHotel Coklu Login 1 3" time="18.958">
-<system-out><![CDATA[When kullanici "Ck_Hotels" ana sayfasina gider..............................passed
-Then Log in yazisina tiklar.................................................passed
-And Username text Box'ina "Manager2" girer..................................passed
-And Password textBox'ina "Manager2" girer...................................passed
-Then Login butonuna basar...................................................passed
-Then kullanici login olmadigini dogrular....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1011_CKHotel Coklu Login Deneme" name="TC12_CKHotel Coklu Login 1 4" time="16.904">
-<system-out><![CDATA[When kullanici "Ck_Hotels" ana sayfasina gider..............................passed
-Then Log in yazisina tiklar.................................................passed
-And Username text Box'ina "Manager3" girer..................................passed
-And Password textBox'ina "Manager3" girer...................................passed
-Then Login butonuna basar...................................................passed
-Then kullanici login olmadigini dogrular....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1011_CKHotel Coklu Login Deneme" name="TC12_CKHotel Coklu Login 1 5" time="15.043">
-<system-out><![CDATA[When kullanici "Ck_Hotels" ana sayfasina gider..............................passed
-Then Log in yazisina tiklar.................................................passed
-And Username text Box'ina "Manager3" girer..................................passed
-And Password textBox'ina "Manager4" girer...................................passed
-Then Login butonuna basar...................................................passed
-Then kullanici login olmadigini dogrular....................................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.49">
+<testcase classname="US1012_Guru_Web_Tables" name="TC_16_kullanici_liste_alabilmeli" time="11.921">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given kullanici "guru_url" ana sayfasina gider..............................passed
+Then Company listesini consola yazdirir.....................................passed
+And "DCB Bank" listede oldugunu test eder...................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Guru99StepDefinitions.listedeOldugunuTestEder(Guru99StepDefinitions.java:30)
+	at ✽."DCB Bank" listede oldugunu test eder(file:///C:/Users/admin/IdeaProjects/mycucumberframework/src/test/resources/features/US1013_Guru_Web_Tables.feature:7)
+]]></failure>
 </testcase>
 </testsuite>
